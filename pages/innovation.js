@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
+import data from '../portfolio-content.json'
 
 export default function Innovation() {
   return (
@@ -19,13 +20,15 @@ export default function Innovation() {
           Innovation
         </p>
 
-        <div className={styles.grid}>
-          <iframe 
-            src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6567722834196471808" 
-            height="823" width="504" frameborder="0" 
-            allowfullscreen="" title="Embedded post">
-          </iframe>
-        </div>
+        {
+          data.content.innovation.map((data) => {
+            return (
+              <div className={styles.gridContent}>
+                <html className={styles.embed} dangerouslySetInnerHTML={{__html: data.content}}/>
+              </div>
+            )
+         })
+        }
 
       </main>
 
@@ -35,3 +38,5 @@ export default function Innovation() {
     </div>
   )
 }
+
+
