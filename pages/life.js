@@ -8,6 +8,8 @@ export default function Life() {
       <Head>
         <title className={styles.title}>Navdeep Dhuti</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta property="og:title" content="Navdeep Dhuti | Life" key="Navdeep Dhuti" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
       <main className={styles.main}>
