@@ -2,19 +2,20 @@
 	"content": {
 		"innovation": [
 			{
-				"type": "LinkedIn",
-				"embed": "iframe",
-				"content": "<iframe src='https://www.linkedin.com/embed/feed/update/urn:li:share:6659722105308884992' height='816' width='100%' frameborder='0' allowfullscreen='' title='Embedded post'></iframe>"
+				"type": "Feed",
+				"embed": "text",
+				"title": "Show me your face and I will let you know your waist size!",
+				"description": "Built this algorthim in 2018 while building Fashion Analytics Stack for a large retail client ...",
+				"url": "https://www.linkedin.com/posts/navdhuti_analytics-data-ai-activity-6659722106042896384-CX_m",
+				"image": "https://drive.google.com/uc?id=1roISPE_ezJE0nB9-QySDEc6lT4EjBPNm"
 			},
 			{
-				"type": "LinkedIn",
-				"embed": "iframe",
-				"content": "<iframe src='https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6567722834196471808' height='823' width='100%' frameborder='0' allowfullscreen='' title='Embedded post'></iframe>"
-			},
-			{
-				"type": "LinkedIn",
-				"embed": "iframe",
-				"content": "<iframe src='https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6505126730389286912' height='804' width='100%' frameborder='0' allowfullscreen='' title='Embedded post'></iframe>"
+				"type": "Feed",
+				"embed": "text",
+				"title": "Search Based Analytics with Looker",
+				"description": "A simple NLP query engine built for Looker on top of Looker API ...",
+				"url": "https://www.linkedin.com/posts/navdhuti_looker-googleassistant-nlp-activity-6567722963733368832--OPG",
+				"image": "https://drive.google.com/uc?id=1AAH3UOsHp1OZCRUGpNC1E5FEyVXFvyAI"
 			}
 		],
 		"data": [],

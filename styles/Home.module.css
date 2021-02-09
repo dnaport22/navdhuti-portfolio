@@ -102,6 +102,7 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
+  position: relative;
 }
 
 .card:hover,
@@ -183,5 +184,32 @@
     margin: 0;
     width: 100%;
   }
+}
+
+.imageContent {
+  border-radius: 0.5rem;
+  height: auto;
+  opacity: 0.3;
+  object-fit: cover;
+}
+
+.overlayContentSection {
+  font-size: 2rem;
+  position: absolute;
+  font-weight: 10;
+  padding: 30px;
+  margin-bottom: 10px;
+  z-index: 1;
+  bottom: 0;
+}
+
+.contentTitle {
+  font-size: 1.5rem !important;
+  font-weight: bold !important;
+}
+
+.contentDescription {
+  font-size: 1rem !important;
+  font-weight: bold !important;
 }
 

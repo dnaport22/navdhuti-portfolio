@@ -4,6 +4,9 @@ import Image from 'next/image'
 import data from '../portfolio-content.json'
 
 export default function Innovation() {
+  const imgLoader = ({src}) => {
+    return `${src}`
+  }
   return (
     <div className={styles.container}>
       <Head>
@@ -22,12 +25,25 @@ export default function Innovation() {
           Innovation
         </p>
 
+        
         {
           data.content.innovation.map((data) => {
             return (
-              <div className={styles.gridContent}>
-                <html className={styles.embed} dangerouslySetInnerHTML={{__html: data.content}}/>
+              <a href={data.url} target="_blank" className={styles.card}>
+              <div className={styles.overlayContentSection}>
+                <p className={styles.contentTitle}>{data.title}</p>
+                <p className={styles.contentDescription}>{data.description}</p>
               </div>
+                <Image
+                  loader={imgLoader}
+                  src={data.image}
+                  alt={data.title}
+                  width="500"
+                  height="500"
+                  className={styles.imageContent}
+                  priority={true}
+                />
+              </a>
             )
          })
         }
