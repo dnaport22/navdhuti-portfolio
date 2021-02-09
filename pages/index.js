@@ -20,7 +20,7 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="#" className={styles.card}>
+          <a href="/data" className={styles.card}>
           <div className={styles.sectiontext}>Data</div>
             <Image
               src="/assets/images/data.png"
@@ -32,7 +32,7 @@ export default function Home() {
             />
           </a>
 
-          <a href="#" className={styles.card}>
+          <a href="/innovation" className={styles.card}>
           <div className={styles.sectiontext}>Innovation</div>
             <Image
               src="/assets/images/innovation.png"
@@ -44,7 +44,7 @@ export default function Home() {
             />
           </a>
 
-          <a href="#" className={styles.card}>
+          <a href="/poetry" className={styles.card}>
           <div className={styles.sectiontext}>Poetry</div>
             <Image
               src="/assets/images/poetry.png"
@@ -56,7 +56,7 @@ export default function Home() {
             />
           </a>
 
-          <a href="#" className={styles.card}>
+          <a href="/life" className={styles.card}>
           <div className={styles.sectiontext}>Life</div>
             <Image
               src="/assets/images/life.png"
