@@ -38,6 +38,11 @@
 				"type": "LinkedIn",
 				"embed": "iframe",
 				"content": "<iframe src='https://www.linkedin.com/embed/feed/update/urn:li:share:6335069025210499072' height='740' width='100%' frameborder='0' allowfullscreen=' title='Embedded post'></iframe>"
+			},
+			{
+				"type": "LinkedIn",
+				"embed": "iframe",
+				"content": "<iframe src='https://medium.com/@deepnav/know-your-limits-and-be-patient-79e130ff043' width='100%' height='790px' frameBorder='0' style='border: 0;'></iframe>"
 			}
 		],
 		"poetry": []
