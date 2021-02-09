@@ -1,9 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Rajdhani);
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Rajdhani;
+  background: #0e1111;
 }
 
 a {
@@ -13,4 +15,8 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+p {
+	color: white;
 }
