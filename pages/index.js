@@ -22,17 +22,18 @@ export default function Home() {
         <div className={styles.grid}>
           <a href="#" className={styles.card}>
             <Image
-              src="/assets/images/data.gif"
+              src="/assets/images/data.png"
               alt="Data"
               width={500}
               height={500}
               className={styles.image}
+              priority={true}
             />
           </a>
 
           <a href="#" className={styles.card}>
             <Image
-              src="/assets/images/innovation.gif"
+              src="/assets/images/innovation.png"
               alt="Innovation"
               width={500}
               height={500}
@@ -42,7 +43,7 @@ export default function Home() {
 
           <a href="#" className={styles.card}>
             <Image
-              src="/assets/images/poetry.gif"
+              src="/assets/images/poetry.png"
               alt="Poetry"
               width={500}
               height={500}
@@ -52,7 +53,7 @@ export default function Home() {
 
           <a href="#" className={styles.card}>
             <Image
-              src="/assets/images/life.gif"
+              src="/assets/images/life.png"
               alt="Life"
               width={500}
               height={500}
