@@ -29,10 +29,16 @@ export default function Innovation() {
         {
           data.content.innovation.map((data) => {
             return (
-              <a href={data.url} target="_blank" className={styles.card}>
-              <div className={styles.overlayContentSection}>
-                <p className={styles.contentTitle}>{data.title}</p>
-                <p className={styles.contentDescription}>{data.description}</p>
+              <div className={styles.parallax}>
+              <div className={styles.parallaxTopLeft}></div>
+              <div className={styles.parallaxTopRight}></div>
+              <div className={styles.parallaxBottomLeft}></div>
+              <div className={styles.parallaxBottomRight}></div>
+              <div className={styles.parallaxContent }>
+              <a href={data.url} target="_blank">
+              <div className={styles.overlayContentSection + " " + styles.parallaxFront}>
+                <p className={styles.contentTitle}>{data.title} <br/>
+                <a className={styles.contentDescription}>{data.description}</a></p>
               </div>
                 <Image
                   loader={imgLoader}
@@ -40,10 +46,12 @@ export default function Innovation() {
                   alt={data.title}
                   width="500"
                   height="500"
-                  className={styles.imageContent}
+                  className={styles.imageContent + " " + styles.parallaxBack}
                   priority={true}
                 />
               </a>
+              </div>
+              </div>
             )
          })
         }
