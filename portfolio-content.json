@@ -42,7 +42,47 @@
 			{
 				"type": "LinkedIn",
 				"embed": "iframe",
-				"content": "<iframe src='https://medium.com/@deepnav/know-your-limits-and-be-patient-79e130ff043' width='100%' height='790px' frameBorder='0' style='border: 0;'></iframe>"
+				"content": "<script async src='https://static.medium.com/embed.js'></script><a class='m-story' href='https://medium.com/@deepnav/know-your-limits-and-be-patient-79e130ff043'>Know your limits and be patient …</a>"
+			},
+			{
+				"type": "LinkedIn",
+				"embed": "iframe",
+				"content": "<script async src='https://static.medium.com/embed.js'></script><a class='m-story' href='https://medium.com/@deepnav/learn-why-to-code-d49e963e4fd5'>Learn Why to Code!</a>"
+			},
+			{
+				"type": "LinkedIn",
+				"embed": "iframe",
+				"content": "<script async src='https://static.medium.com/embed.js'></script><a class='m-story' href='https://medium.com/@deepnav/organic-is-not-sustainable-bfd445c8bf14'>Organic is Not Sustainable</a>"
+			},
+			{
+				"type": "LinkedIn",
+				"embed": "iframe",
+				"content": "<script async src='https://static.medium.com/embed.js'></script><a class='m-story' href='https://medium.com/@deepnav/managing-growth-and-innovation-talk-at-london-south-bank-university-49ef54c59c0e'>Managing Growth and Innovation …</a>"
+			},
+			{
+				"type": "LinkedIn",
+				"embed": "iframe",
+				"content": "<script async src='https://static.medium.com/embed.js'></script><a class='m-story' href='https://medium.com/@deepnav/beauty-in-the-code-why-everyone-should-learn-to-code-952dea771a83'>Beauty in th code …</a>"
+			},
+			{
+				"type": "LinkedIn",
+				"embed": "iframe",
+				"content": "<script async src='https://static.medium.com/embed.js'></script><a class='m-story' href='https://medium.com/@deepnav/thoughts-on-digital-transformation-b88cdc5bf221'>Thoughts on Digital Transformation</a>"
+			},
+			{
+				"type": "LinkedIn",
+				"embed": "iframe",
+				"content": "<script async src='https://static.medium.com/embed.js'></script><a class='m-story' href='https://medium.com/@deepnav/when-u-see-beauty-in-people-from-a-developers-eye-6f7dfbc56261'>When u see beauty …</a>"
+			},
+			{
+				"type": "LinkedIn",
+				"embed": "iframe",
+				"content": "<script async src='https://static.medium.com/embed.js'></script><a class='m-story' href='https://towardsdatascience.com/why-i-think-ai-can-take-over-humans-53c79a5a9fce'>Why I think AI can take over humans.</a>"
+			},
+			{
+				"type": "LinkedIn",
+				"embed": "iframe",
+				"content": "<script async src='https://static.medium.com/embed.js'></script><a class='m-story' href='https://medium.com/@deepnav/brief-insight-into-innovation-in-a-data-rich-industry-d41a36026594'>Brief Insight into “Innovation in a Data Rich Industry”</a>"
 			}
 		],
 		"poetry": []
