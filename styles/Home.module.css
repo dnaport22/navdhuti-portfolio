@@ -127,14 +127,70 @@
   color: white;
 }
 
-.overlaytext {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  z-index: 1;
-  transform: translate(-50%, -50%);
-}
-
 .image {
   border-radius: 0.5rem;
 }
+
+
+.sectiontext {
+  position: absolute;
+  letter-spacing: 6px;
+  font-size: 60px;
+  padding-top: 10%;
+  font-weight: 10;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  background-size: 180% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -ms-background-clip: text;
+  -ms-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  background-image: linear-gradient(45deg, 
+                    #7794ff, 
+                    #44107A,
+                    #FF1361,
+                    #FFF800);
+  animation: shake 1.0s linear infinite;
+  z-index: 1;
+}
+
+@keyframes shake {
+  0% { transform: skewX(-10deg); }
+  5% { transform: skewX(5deg); }
+  10% { transform: skewX(-10deg); }
+  15% { transform: skewX(5deg); }
+  20% { transform: skewX(0deg); }
+  100% { transform: skewX(0deg); }  
+}
+
+.flaretext {
+    color: #fff;
+    font-size: 92px;
+    font-family: "ubuntu";
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+    background: linear-gradient(to right,#095fab 10%, #25abe8 50%, #57d75b 60%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 1.5s linear infinite;
+    display: inline-block;
+  }
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+

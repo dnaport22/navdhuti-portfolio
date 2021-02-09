@@ -21,6 +21,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a href="#" className={styles.card}>
+          <div className={styles.sectiontext}>Data</div>
             <Image
               src="/assets/images/data.png"
               alt="Data"
@@ -32,32 +33,38 @@ export default function Home() {
           </a>
 
           <a href="#" className={styles.card}>
+          <div className={styles.sectiontext}>Innovation</div>
             <Image
               src="/assets/images/innovation.png"
               alt="Innovation"
               width={500}
               height={500}
               className={styles.image}
+              priority={true}
             />
           </a>
 
           <a href="#" className={styles.card}>
+          <div className={styles.sectiontext}>Poetry</div>
             <Image
               src="/assets/images/poetry.png"
               alt="Poetry"
               width={500}
               height={500}
               className={styles.image}
+              priority={true}
             />
           </a>
 
           <a href="#" className={styles.card}>
+          <div className={styles.sectiontext}>Life</div>
             <Image
               src="/assets/images/life.png"
               alt="Life"
               width={500}
               height={500}
               className={styles.image}
+              priority={true}
             />
           </a>
         </div>
