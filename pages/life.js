@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
+import data from '../portfolio-content.json'
 
 export default function Life() {
   return (
@@ -20,6 +21,16 @@ export default function Life() {
         <p className={styles.description}>
           Life
         </p>
+
+        {
+          data.content.life.map((data) => {
+            return (
+              <div className={styles.gridContent}>
+                <html className={styles.embed} dangerouslySetInnerHTML={{__html: data.content}}/>
+              </div>
+            )
+         })
+        }
 
        
       </main>

@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
+import data from '../portfolio-content.json'
+
 
 export default function Blog() {
   return (
@@ -19,6 +21,16 @@ export default function Blog() {
         <p className={styles.description}>
           Poetry
         </p>
+
+        {
+          data.content.poetry.map((data) => {
+            return (
+              <div className={styles.gridContent}>
+                <html className={styles.embed} dangerouslySetInnerHTML={{__html: data.content}}/>
+              </div>
+            )
+         })
+        }
 
        
       </main>
