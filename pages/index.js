@@ -32,10 +32,6 @@ export default function Home() {
 
         </div>
       </main>
-
-      <footer className={styles.footer}>
-        Navdeep Dhuti © All rights reserved.
-      </footer>
     </div>
   )
 }
