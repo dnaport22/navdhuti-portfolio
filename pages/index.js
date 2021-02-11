@@ -9,66 +9,27 @@ export default function Home() {
         <title className={styles.title}>Navdeep Dhuti</title>
         <link rel="icon" href="/favicon.ico" />
         <meta property="og:title" content="Navdeep Dhuti | Portfolio" key="Navdeep Dhuti" />
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Navdeep Dhuti
-        </h1>
+        <Image src={"/assets/images/bg.jpg"}
+          layout="fill"
+          objectFit="cover"
+          className={styles.bg}
+          />
+        <div className={styles.homeTitle}>
+          <h1 className={styles.homeName}>N<a className={styles.homeDescription_1_style}>a </a>vdeep Dhut
+          <a className={styles.homeDescription_1_style}> i</a></h1>
+          <h3 className={styles.homeDescription_1}>creating magic with 
+          <a className={styles.homeDescription_1_style}> technology  </a> & love with 
+          <a className={styles.homeDescription_1_style}> poetry</a></h3>
+          <p className={styles.homeDescription_1_style_bio_h}>Bio</p>
+          <p className={styles.homeDescription_1_style_bio_b}>I am Nav, a human first, then a 
+          technologist. I write poetry to express the universe and code to get value out of data. 
+          I am an experienced Data Engineer, a versatile tech entruprenuer and 
+          an amazing person you will ever meet ;)</p>
 
-        <p className={styles.description}>
-          Creating magic with technology and love with poetry!
-        </p>
-
-        <div className={styles.grid}>
-          <a href="/data" className={styles.card}>
-          <div className={styles.sectiontext}>Data</div>
-            <Image
-              src="/assets/images/data.png"
-              alt="Data"
-              width={500}
-              height={500}
-              className={styles.image}
-              priority={true}
-            />
-          </a>
-
-          <a href="/innovation" className={styles.card}>
-          <div className={styles.sectiontext}>Innovation</div>
-            <Image
-              src="/assets/images/innovation.png"
-              alt="Innovation"
-              width={500}
-              height={500}
-              className={styles.image}
-              priority={true}
-            />
-          </a>
-
-          <a href="/poetry" className={styles.card}>
-          <div className={styles.sectiontext}>Poetry</div>
-            <Image
-              src="/assets/images/poetry.png"
-              alt="Poetry"
-              width={500}
-              height={500}
-              className={styles.image}
-              priority={true}
-            />
-          </a>
-
-          <a href="/life" className={styles.card}>
-          <div className={styles.sectiontext}>Life</div>
-            <Image
-              src="/assets/images/life.png"
-              alt="Life"
-              width={500}
-              height={500}
-              className={styles.image}
-              priority={true}
-            />
-          </a>
         </div>
       </main>
 
