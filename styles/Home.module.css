@@ -24,7 +24,7 @@
   align-items: center;
   color: white;
   bottom: 0;
-  background-color: black;
+  font-size: 14px !important;
 }
 
 .footer img {
@@ -109,7 +109,7 @@
 .homeDescription_1_style_bio_b {
   color: #181818;
   margin-right: 30%;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 @media (max-width: 600px) {

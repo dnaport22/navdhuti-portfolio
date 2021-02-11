@@ -24,14 +24,13 @@ export default function Home() {
           <h3 className={styles.homeDescription_1}>creating magic with 
           <a className={styles.homeDescription_1_style}> technology  </a> & love with 
           <a className={styles.homeDescription_1_style}> poetry</a></h3>
-          <p className={styles.homeDescription_1_style_bio_h}>Bio</p>
-          <p className={styles.homeDescription_1_style_bio_b}>I am Nav, a human first, then a 
-          technologist. I write poetry to express the universe and code to get value out of data. 
-          I am an experienced Data Engineer, a versatile tech entruprenuer and 
-          an amazing person you will ever meet ;)</p>
 
         </div>
       </main>
+
+      <footer className={styles.footer}>
+        Navdeep Dhuti © All rights reserved.
+      </footer>
     </div>
   )
 }
