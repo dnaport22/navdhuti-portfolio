@@ -10,6 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <meta property="og:title" content="Navdeep Dhuti | Portfolio" key="Navdeep Dhuti" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="google-site-verification" content="vPZU8grKIJi474--EUebBVsj4btZPV7XjlQF2FXHYWc" />
       </Head>
 
       <main className={styles.main}>
@@ -24,7 +25,6 @@ export default function Home() {
           <h3 className={styles.homeDescription_1}>creating magic with 
           <a className={styles.homeDescription_1_style}> technology  </a> & love with 
           <a className={styles.homeDescription_1_style}> poetry</a></h3>
-
         </div>
       </main>
 
